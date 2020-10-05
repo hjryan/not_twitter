@@ -1,6 +1,6 @@
 # Project 3 - *Not Twitter*
 
-*Not Twitter** is a basic twitter app to read your tweets.
+**Not Twitter** is a basic twitter app to read your tweets.
 
 Time spent: **X** hours spent in total
 
