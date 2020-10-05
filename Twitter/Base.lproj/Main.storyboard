@@ -17,10 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCj-MC-Nyg">
-                                <rect key="frame" x="80" y="306" width="215" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCj-MC-Nyg">
+                                <rect key="frame" x="80" y="306" width="215" height="55"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="215" id="3Hj-3U-SXL"/>
+                                    <constraint firstAttribute="height" constant="55" id="HYB-iH-9ed"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -29,6 +32,10 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="QdQ-2X-cuL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kCj-MC-Nyg" firstAttribute="top" secondItem="QdQ-2X-cuL" secondAttribute="top" constant="307" id="lOs-UY-NNd"/>
+                            <constraint firstItem="kCj-MC-Nyg" firstAttribute="centerX" secondItem="eh9-OG-gjd" secondAttribute="centerX" id="wIh-1u-0Wi"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="msr-8E-9S2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
