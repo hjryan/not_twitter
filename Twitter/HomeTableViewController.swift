@@ -103,6 +103,19 @@ class HomeTableViewController: UITableViewController {
             cell.profileImageView.image = UIImage(data: imageData)
         }
         
+//        // embed image -- leaving out bc autolayout is a disaster
+//        let entity = tweetArray[indexPath.row]["entities"] as! NSDictionary
+//        let media = entity["media"] as? NSArray
+//        let mediaArray = media?[0] as? NSDictionary
+//        if mediaArray?["media_url_https"] as? String != nil {
+//            let mediaUrl = URL(string: (mediaArray?["media_url_https"] as? String)!)
+//                let mediaData = try? Data(contentsOf: mediaUrl!)
+//
+//                if let mediaImageData = mediaData{
+//                    cell.embeddedImageView.image = UIImage(data: mediaImageData)
+//                }
+//        }
+        
         cell.setFavorite(tweetArray[indexPath.row]["favorited"] as! Bool)
         cell.tweetId = tweetArray[indexPath.row]["id"] as! Int
         cell.setRetweeted(tweetArray[indexPath.row]["retweeted"] as! Bool)
