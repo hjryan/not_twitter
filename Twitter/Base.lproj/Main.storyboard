@@ -57,16 +57,17 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="209"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cxx-43-GbC">
-                                            <rect key="frame" x="10" y="10" width="55" height="55"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="cxx-43-GbC">
+                                            <rect key="frame" x="10" y="10" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <constraints>
-                                                <constraint firstAttribute="height" constant="65" id="1Mr-zm-Pel"/>
-                                                <constraint firstAttribute="width" constant="65" id="yVj-EX-meE"/>
+                                                <constraint firstAttribute="height" constant="50" id="1Mr-zm-Pel"/>
+                                                <constraint firstAttribute="width" constant="50" id="yVj-EX-meE"/>
                                             </constraints>
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" weight="light"/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John Doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvR-sU-GDd">
-                                            <rect key="frame" x="85" y="10.000000000000002" width="76.666666666666686" height="21.666666666666671"/>
+                                            <rect key="frame" x="70" y="10.000000000000002" width="76.666666666666686" height="21.666666666666671"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -165,7 +166,7 @@
                                     <constraint firstAttribute="height" constant="256" id="nTj-lz-2qK"/>
                                 </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
